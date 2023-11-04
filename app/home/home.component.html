@@ -34,7 +34,7 @@
                 </ng-template>
                 <ng-template matTabContent>
                     <app-file-upload
-                        (fileRejected)="rejectFile($event)"
+                        (fileSelected)="HandlPlaylist($event)"
                         (fileSelected)="handlePlaylist($event)"
                     ></app-file-upload>
                 </ng-template>
